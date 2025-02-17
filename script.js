@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Data akun dengan gambar dan deskripsi yang unik
     let accounts = [
-        { id: 1, image: "https://i.ibb.co.com/CKcG06TC/Screenshot-20250207-181048.jpg", description: "Akun ini memiliki fitur premium dan akses eksklusif untuk pengguna VIP." },
+        { id: 1, image: "https://i.ibb.co.com/CKcG06TC/Screenshot-20250207-181048.jpg", description: "Allkosong, login moonton only!! harga? tes harga aja." },
         { id: 2, image: "https://placekitten.com/101/100", description: "Akun dengan akses penuh ke konten eksklusif dan layanan premium." },
         { id: 3, image: "https://placekitten.com/102/100", description: "Akun untuk pengguna yang ingin menikmati fitur lengkap dan lebih banyak keuntungan." },
         { id: 4, image: "https://placekitten.com/103/100", description: "Akun dengan fitur terbaik dan pengalaman pengguna premium." },
@@ -60,7 +60,7 @@ function showInfo(id) {
   // 1. Cek id dan set gambar serta detail berdasarkan id akun
   if (id === 1) {
     popupImg.src = "https://i.ibb.co.com/CKcG06TC/Screenshot-20250207-181048.jpg"; // Gambar untuk Akun 1
-    popupDesc.textContent = "Detail Akun 1: Fitur premium, akses VIP, dan lainnya.";
+    popupDesc.textContent = "Detail Akun 1: Tes harga acc pribadi ynz.";
   } else if (id === 2) {
     popupImg.src = "https://placekitten.com/201/201"; // Gambar untuk Akun 2
     popupDesc.textContent = "Detail Akun 2: Fitur eksklusif, keanggotaan premium, dan akses penuh.";
